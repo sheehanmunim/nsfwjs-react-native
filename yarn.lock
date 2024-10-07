@@ -4017,10 +4017,10 @@ expo-font@~12.0.10, expo-font@~12.0.9:
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-gl@~14.0.2:
-  version "14.0.2"
-  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-14.0.2.tgz#e9ea2ddf8d0f5671ca8e435b16d86908e46e8964"
-  integrity sha512-XqTg8NMJAHsMiDeyVrUjR4efC/FPz2hQ0BdfnuEk+TNdxsgKy+KHsAkjGrqEWum+DtEQl1uAODUXCPC6lEqoDQ==
+expo-gl@^13.0.1:
+  version "13.6.0"
+  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-13.6.0.tgz#b93c7dd2df8f2afe3823b043c37f898adda8ee92"
+  integrity sha512-hhRC2ZTDpc2YoElojutJTOYQsjSxX68lgL+2TSgWRrrvUXFeua1Ohz5DL/0iNCeoabs1earf/4qhxIdozkrhMA==
   dependencies:
     invariant "^2.2.4"
 
