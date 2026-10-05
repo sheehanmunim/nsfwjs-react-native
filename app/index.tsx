@@ -130,7 +130,12 @@ const Index = () => {
       const arrayBuffer = Uint8Array.from(atob(base64), (c) => c.charCodeAt(0));
       const imageData = arrayBuffer;
       const imageTensor = imageToTensor(imageData);
-      const p = await classify(model, imageTensor);
+      let p;
+      try {
+        p = await classify(model, imageTensor);
+      } finally {
+        imageTensor.dispose();
+      }
       setPredictions(p);
       console.log(p);
     } catch (e) {
